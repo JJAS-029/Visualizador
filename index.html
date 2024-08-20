@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>COVID-19</title>
+
+        <link rel="icon" type="image/png" href="img/icon_page.png" />
+
+        <script src="leaflet/leaflet.js"></script>
+        <link rel="stylesheet" href="leaflet/leaflet.css">
+
+        <!-- Bootstrap js -->
+        <script src="js/jquery/jquery-3.3.1.min.js"></script>
+        <script src="js/popper/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body id="bodyall">
+        <!-- Map div -->
+        <div id='map'></div>
+
+        <!-- panel div -->
+
+        <div id='panel'>
+            <iframe id="frameinfo" frameborder="0" style="border:0" src="https://datastudio.google.com/embed/reporting/8327afaa-486a-4b75-ba33-703f863311e8/page/JmiMB"></iframe>
+            <!--iframe id="report_pan" frameborder="0" style="border:0" allowfullscreen src="https://datastudio.google.com/reporting/42b30a3c-3ded-4334-bf40-8cfa3a203946" frameborder="0"></iframe-->
+        </div>
+        
+        <!-- Dropdown de capas -->
+        <div id="dropdownbutton" class="btn-group dropleft button">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="img/icon.png">
+            </button>
+            <div class="dropdown-menu" id="dropdw_menu">
+        
+                <p class="dropdown-header text-light"><b>Información</b></p>
+                
+                <div class="dropdown-item form-check">
+                    <input class="form-check-input" type="checkbox" name="gridRadios" id="confirmados" checked>
+                    <label class="form-check-label text-light" for="confirmados">Confirmados</label>
+                </div>
+                <div class="dropdown-item form-check">
+                    <input class="form-check-input" type="checkbox" name="gridRadios" id="hospitales" unchecked>
+                    <label class="form-check-label text-light" for="hospitales">Hospitales</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- GeoJson -->
+        <script src="json/ae.geojson"></script>
+        <script src="json/america.geojson"></script>
+        
+        
+        <script src="js/funcion.js"></script>
+    </body>
+    
+</html>

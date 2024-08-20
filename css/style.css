@@ -1,0 +1,55 @@
+
+#bodyall{
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+    }
+
+#map{
+    position:absolute;
+    right:0.5%;
+    top:0.5%;
+    height:99%;
+    width:59.75%;
+    background-color: white;
+    z-index: 1;
+    }
+
+#panel{
+    position: absolute;
+    left: 0.5%;
+    top: 0.5%;
+    height: 99%;
+    width: 39%;
+}
+
+#frameinfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+}
+
+#dropdownbutton{
+    position:fixed;
+    top:20%;
+    right: 1%;
+    z-index: 2;
+    }
+
+#dropdw_menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: medium;
+}
+
+.legend {
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 2em;
+    font-size: 1rem;
+    font-style: italic;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+}

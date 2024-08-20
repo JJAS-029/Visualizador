@@ -1,0 +1,1 @@
+Este programa utiliza Leaflet, una biblioteca de JavaScript para mapas interactivos, para visualizar datos de COVID-19 en un mapa. La aplicación permite a los usuarios explorar y analizar la distribución geográfica de los casos de COVID-19, proporcionando una interfaz intuitiva y fácil de usar.
